@@ -17,12 +17,6 @@
     window.location = "index.php";
 </script>
 
-    // if (mysqli_query($koneksi, $query)) {
-    //     header("Location: index.php");
-    // } else {
-    //     echo "Pendaftaran Gagal : ".mysqli_error($koneksi);
-    // }
-?>
 
 
 
