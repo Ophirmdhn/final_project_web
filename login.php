@@ -2,8 +2,8 @@
     // include 'koneksi.php';
     // session_start();
 
-    // if (isset($_SESSION['username'])) {
-    //     header("Location : dashboard.php");
+    // if (isset($_SESSION ['username'])){
+    //     header ("Location : dashboard.php");
     // }
 ?>
 
@@ -29,6 +29,7 @@
             ?>
             <script>
                 alert("Username atau Password anda salah! silahkan coba lagi.");
+                window.location = 'index.php';
             </script>
             <?php
         }
