@@ -16,7 +16,3 @@
     alert("Pendaftaran Berhasil!");
     window.location = "index.php";
 </script>
-
-
-
-

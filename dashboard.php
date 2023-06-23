@@ -18,6 +18,7 @@ if (!isset($_SESSION['username'])){
     <title>Dashboard</title>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand fw-bolder" href="#">Tiki - Toko</a>
@@ -37,12 +38,13 @@ if (!isset($_SESSION['username'])){
             </li>
         </ul>
         <form class="d-flex" role="search">
-            <a class="btn btn-outline-primary ms-5" href="logout.php" role="button">Logout</a>
+            <a class="btn btn-outline-dark ms-4" href="logout.php" role="button">Logout</a>
         </form>
         </div>
     </div>
     </nav>
 
+    <!-- Main -->
     <main>
         <div class="p-md-5 m-md-3 bg-body"></div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body">
@@ -91,11 +93,11 @@ if (!isset($_SESSION['username'])){
                 <h1 class="display-5 fw-bold">Order</h1>
                 <h3 class="fw-normal text-muted mb-3">
                     Kami akan menyediakan barang yang anda inginkan!
-                    silahka pilih menu di bawah ini untuk melakukan pemesanan.
+                    silahkan pilih menu di bawah ini untuk melakukan pemesanan.
                 </h3>
                 <form class="" role="search">
-                     <a class="btn btn-dark" href="#" role="button">Buat Pesanan</a>
-                     <a class="btn btn-dark" href="#" role="button">Pesanan Saya</a>
+                     <a class="btn btn-dark" href="order.php" role="button">Buat Pesanan</a>
+                     <a class="btn btn-dark" href="data_barang.php" role="button">Pesanan Saya</a>
                 </form>
             </div>
         </div>
