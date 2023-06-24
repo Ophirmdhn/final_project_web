@@ -31,9 +31,6 @@ if (!isset($_SESSION['username'])){
                 <a class="nav-link active mx-3" aria-current="page" href="#team">Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active mx-3" aria-current="page" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link active mx-3" aria-current="page" href="#order">Order</a>
             </li>
         </ul>
@@ -55,6 +52,7 @@ if (!isset($_SESSION['username'])){
         </div>
         <div class="p-md-5 m-md-3 bg-body"></div>
 
+        <!-- About -->
         <div class="p-md-5 m-md-0 bg-secondary" id="about"></div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center bg-secondary">
             <div class="col-md-7 p-lg-5 mx-auto my-5">
@@ -67,41 +65,53 @@ if (!isset($_SESSION['username'])){
         </div>
         <div class="p-md-5 m-md-0 bg-secondary"></div>
 
-        <div class="p-md-5 m-md-3 bg-body" id="team"></div>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body">
+        <!-- Team -->
+        <div class="p-md-3 m-md-0 bg-body" id="team"></div>
+        <div class="position-relative overflow-hidden p-2 p-md-2 m-md-3 text-center bg-body">
             <div class="p-lg-5 mx-auto my-auto">
-                <h1 class="display-5 fw-bold">Team</h1>
-                <h3 class="fw-normal text-muted mb-3">Utiwi</h3>
+                <h1 class="display-4 fw-bold mb-4">Team</h1>
+                <h2 class="fw-bold mb-4">Kelompok III</h2>
+                <div class="row px-5">
+                    <div class="col">
+                        <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white;" alt="Foto" src="assets/kasim.jpg"/>
+                        <h4 class="fw-bold mb-3">Laode Kasim</h4>
+                    </div>                        <div class="col">
+                          <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white;" alt="Foto" src="assets/hajrin.jpg"/>
+                        <h4 class="fw-bold mb-3">Hajrin</h4>
+                    </div>
+                    <div class="col">
+                        <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white;" alt="Foto" src="assets/poto.jpg"/>
+                        <h4 class="fw-bold mb-3">Dwi Ophi Ramadhan</h4>
+                    </div>
+                    <div class="col">
+                        <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white; rotate: -40deg;" alt="Foto" src="assets/ryan.jpg"/>
+                        <h4 class="fw-bold mb-3">Ryan Hardi Saputra</h4>
+                    </div>
+                    <div class="col">
+                        <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white;" alt="Foto" src="assets/agil.jpg"/>
+                        <h4 class="fw-bold mb-3">Muh. Said Agil</h4>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="p-md-5 m-md-3 bg-body"></div>
 
-        <div class="p-md-5 m-md-0 bg-secondary" id="contact"></div>
+        <!-- Order -->
+        <div class="p-md-5 m-md-0 bg-secondary" id="order"></div>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center bg-secondary">
-            <div class="col-md-7 p-lg-5 mx-auto my-5">
-                <h1 class="display-5 fw-bold text-white">Contact</h1>
-                <h3 class="fw-normal text-white mb-3">
-                    Utiwi
-                </h3>
-            </div>
-        </div>
-        <div class="p-md-5 m-md-0 bg-secondary"></div>
-
-        <div class="p-md-5 m-md-3 bg-body" id="order"></div>
-        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body">
             <div class="col-md-9 p-lg-5 mx-auto my-auto">
-                <h1 class="display-5 fw-bold">Order</h1>
-                <h3 class="fw-normal text-muted mb-3">
+                <h1 class="display-5 fw-bold text-white">Order</h1>
+                <h3 class="fw-normal text-white mb-3">
                     Kami akan menyediakan barang yang anda inginkan!
                     silahkan pilih menu di bawah ini untuk melakukan pemesanan.
                 </h3>
                 <form class="" role="search">
-                     <a class="btn btn-dark" href="order.php" role="button">Buat Pesanan</a>
-                     <a class="btn btn-dark" href="data_barang.php" role="button">Pesanan Saya</a>
+                     <a class="btn btn-light mx-2" href="order.php" role="button">Buat Pesanan</a>
+                     <a class="btn btn-light mx-2" href="data_barang.php" role="button">Pesanan Saya</a>
                 </form>
             </div>
         </div>
-        <div class="p-md-5 m-md-3 bg-body"></div>
+        <div class="p-md-5 m-md-0 bg-secondary"></div>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

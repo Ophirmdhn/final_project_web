@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Register</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Buat Pesanan</title>
 </head>
 <body>
     <div class="container">
@@ -18,7 +18,7 @@
             <p>Jumlah Barang</p>
             <input type="text" placeholder="Masukan jumlah barang" name="jumlah_barang">
             <p>Keterangan</p>
-            <input type="text" placeholder="Pilih kerterangan (PCS/PCK)" name="keterangan">
+            <input type="text" placeholder="Masukan keterangan" name="keterangan">
             <button type="submit" name="buat_pesanan">Pesan</button>
        </form>
     
