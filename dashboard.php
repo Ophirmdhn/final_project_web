@@ -75,7 +75,8 @@ if (!isset($_SESSION['username'])){
                     <div class="col">
                         <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white;" alt="Foto" src="assets/kasim.jpg"/>
                         <h4 class="fw-bold mb-3">Laode Kasim</h4>
-                    </div>                        <div class="col">
+                    </div>                        
+                    <div class="col">
                           <img class="rounded-circle shadow-4-strong mb-3" style="width: 180px; box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8); border: 7px solid white;" alt="Foto" src="assets/hajrin.jpg"/>
                         <h4 class="fw-bold mb-3">Hajrin</h4>
                     </div>

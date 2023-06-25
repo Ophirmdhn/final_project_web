@@ -7,7 +7,7 @@
     <title>Data Pesanan</title>
 </head>
 <body>
-    <div class="overflow-hidden p-3 p-md-5 mx-auto w-75 text-center">
+    <div class="overflow-hidden p-3 p-md-5 mx-auto w-100 text-center">
         <table class="table table-hover">
         <thead>
             <tr>
